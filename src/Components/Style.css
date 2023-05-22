@@ -1,0 +1,122 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  height: 50vh;
+  background-image:linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%,rgba(132, 5, 25, 0.6) 101.01%),
+  linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%),
+  url("https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_960_720.jpg");
+  background-size: 100% 50vh;
+}
+.home h1, .home h5 {
+    text-align: center;
+}
+.nav-link{
+  transition:all 0.2s;
+  position: relative;
+}
+.nav-link:hover::after{
+content:'';
+height:2px;
+width:100%;
+background-color:white;
+position:absolute;
+bottom:0;
+left:0;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  
+}
+.navbar-toggler {
+  background-color: white;
+}
+
+.default-image {
+  width: 100%;
+  height: auto;
+}
+.card-button {
+  margin-top: auto;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.pagination button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border: none;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #3b71ca;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1f));
+  gap: 1rem;
+  justify-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+}
+
+.form-control {
+  width: 19rem !important;
+  margin: 0rem 2rem;
+}
+
+.d-flex {
+  display: flex !important;
+  justify-content: center;
+  margin-right: 34px;
+}
+
+.obtain {
+  display: flex !important;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+
+.card:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.card-description {
+  display: flex;
+  align-items: center;
+}
