@@ -35,8 +35,8 @@ left:0;
   gap: 1rem;
   
 }
-.navbar-toggler {
-  background-color: white;
+.navbar-toggler-icon{
+  color:white;
 }
 
 .default-image {
